@@ -47,7 +47,7 @@ def generate_question_system_prompt():
         \"Ans\": {answer}
     }
 
-    The question shoudl be about {topic}
+    The question should be about {topic}
 
     """
 
