@@ -52,6 +52,8 @@ def initialize_app():
 st.title('🍎 EasyLearn')
 st.write("Welcome to EasyLearn! This app generates multiple choice questions for students to practice. It also provides a teacher's view to track student progress.")
 
+st.warning("This demo is temporarily unavailable as I have turned off the API for cost management reasons. You may find a recording [here](https://drive.google.com/file/d/1XA3WH-REP-unpuuGuBgtMaXMAiDDkLzD/view?usp=sharing) and [here](https://drive.google.com/file/d/1QnHY-dXpj0hmHjmdUwHLkwzBtDXHmlWf/view?usp=sharing). Thank you!", icon="🚧")
+
 if not st.session_state["press_start"]:
     st.session_state["topics"] = st_tags(label="What do you want to learn today?",
                                         text="Press to enter more")    
